@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentTest</string>
+    <string name="hello1">Hello IntentTestActivity1!</string>
+    <string name="hello2">Hello IntentTestActivity2!</string>
+</resources>

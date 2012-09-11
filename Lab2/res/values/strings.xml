@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Lab2Activity!</string>
+    <string name="app_name">Lab2</string>
+    <string name="hobbies">Hobbies:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="data">Data:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="set">Set</string>
+    <string name="none_set">None Set</string>
+    <string name="none">None</string>
+    <string name="add_hobby">Add Hobbies</string>
+</resources>

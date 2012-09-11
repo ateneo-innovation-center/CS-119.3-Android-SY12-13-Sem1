@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content" android:text="@string/gender"
+		android:layout_height="wrap_content" android:id="@+id/textView1"></TextView>
+	<RadioGroup android:id="@+id/radioGroup1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<RadioButton android:layout_height="wrap_content"
+			android:id="@+id/radio0" android:layout_width="wrap_content"
+			android:checked="true" android:text="@string/male"></RadioButton>
+		<RadioButton android:layout_height="wrap_content"
+			android:id="@+id/radio1" android:layout_width="wrap_content"
+			android:text="@string/female"></RadioButton>
+	</RadioGroup>
+	<TextView android:layout_width="wrap_content" android:text="@string/birthday"
+		android:layout_height="wrap_content" android:id="@+id/textView2"></TextView>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+		<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+			android:layout_weight="1" android:layout_height="match_parent"
+			android:text="@string/none_set"></TextView>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/button1"
+			android:text="@string/set"></Button>
+	</LinearLayout>
+	<TextView android:layout_width="wrap_content" android:text="@string/hobbies"
+		android:layout_height="wrap_content" android:id="@+id/textView4"></TextView>
+	<TextView android:text="@string/none" android:layout_height="wrap_content"
+		android:id="@+id/textView5" android:layout_weight="1"
+		android:layout_width="match_parent"></TextView>
+	<Button android:layout_width="wrap_content"
+		android:layout_gravity="center" android:layout_height="wrap_content"
+		android:id="@+id/button2" android:text="@string/add_hobby"></Button>
+</LinearLayout>
